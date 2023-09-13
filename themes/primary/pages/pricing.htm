@@ -1,0 +1,20 @@
+url="/pricing"
+title="Pricing"
+layout="default"
+==
+function onEnd() {
+    $this['breadcrumb'] = [
+        [
+            'text' => 'home',
+            'url'  => 'home'
+        ],[
+            'text' => 'Pricing'
+        ]
+    ];
+}
+==
+{% partial 'banner-primary' %}
+
+{% partial 'product' %}
+
+{% partial 'list-product' %}

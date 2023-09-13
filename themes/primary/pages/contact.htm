@@ -1,0 +1,103 @@
+url="/contact"
+title="Contact"
+layout="default"
+==
+function onEnd() {
+    $this['breadcrumbs'] = [
+        [
+            'text' => 'Home',
+            'url'  => 'index'
+        ],[
+            'text' => 'Contact'
+        ]
+    ];
+}
+==
+{% partial 'banner-primary' %}
+<section class="contact" id="contact">
+<div class="container">
+<div class="row justify-content-center">
+    <div class="col-md-10 col-lg-8">
+        <div class="section-title">
+            <h2 class="title">Kontak Kami</h2>
+            <p>Prepared is me marianne pleasure likewise debating. Wonder an unable except better stairs do ye admire. His secure called esteem praise.
+    </p>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-4 col-md-6">
+        <div class="info-box box1">
+            <div class="left">
+                <div class="icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+            </div>
+            <div class="right">
+                <div class="content">
+                    <p>+622547913679 </p>
+                    <p>+6289622048933</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+        <div class="info-box box2">
+            <div class="left">
+                <div class="icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+            </div>
+            <div class="right">
+                <div class="content">
+                    <p>contact@startxindonesia.co.id</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+        <div class="info-box box3">
+            <div class="left">
+                <div class="icon">
+                    <i class="fas fa-map-marked-alt"></i>
+                </div>
+            </div>
+            <div class="right">
+                <div class="content">
+                    <p>Taman Lopang Indah Blok F43 Nomor 10</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-6">
+        <div class="contact-form-wrapper">
+            <form id="contact-form" method="POST">
+                <div class="row">
+                    <div class="col-md-12">
+                        <input type="text" class="input-field borderd" id="name" placeholder="Nama Anda" required>
+                    </div>
+                    <div class="col-md-12">
+                        <input type="email" class="input-field borderd" id="email" placeholder="Masukan Email Anda" required>
+                    </div>
+                    <div class="col-12">
+                        <textarea class="input-field borderd textarea" rows="3" id="message" placeholder="Tuliskan Pesan Anda" required></textarea>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="mybtn1">
+                            <span>Kirim Pesan</span>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="google_map_wrapper">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3967.222580796402!2d106.151855!3d-6.100698!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418b491897119d%3A0xf27033acaab5db8a!2sSTARTX%20DIGITAL%20INDONESIA!5e0!3m2!1sid!2sid!4v1687704153003!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</div>
+</div>
+</section>
